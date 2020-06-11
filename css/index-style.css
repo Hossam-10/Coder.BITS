@@ -1,0 +1,397 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, Helvetica, arial, sans-serif;
+}
+
+h1,h2,h3,h5,h6
+{
+    font-weight: 700;
+}
+
+h4
+{
+    font-weight: 400;
+}
+
+.p-body
+{
+    font-family: Poppins, Helvetica, arial, sans-serif;
+    color: #989898;
+    font-weight: 300;
+}
+
+.clr
+{
+    clear: both;
+}
+
+.nav-item
+{
+    padding-right: 35px; !important
+    color: white; !important
+}
+
+.nav-link
+{
+    font-size: 14px;
+}
+
+.first-nav-item
+{
+    position: relative;
+    color: #ec3237; !important
+}
+
+.first-nav-item:hover
+{
+    color: #ec3237; !important
+}
+
+.first-nav-item:after
+{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #ec3237;
+    position: absolute;
+    top: 160%;
+    left: -20;
+}
+
+.others-nav-items
+{
+    color: white;
+}
+
+.others-nav-items:hover
+{
+    color: #ec3237; !important
+}
+
+.navbar-mine
+{
+    background-color: black;
+}
+
+.navbar-logo
+{
+    margin-left: 100px;
+    background-color: #EC3337; 
+}
+
+.logo-mine
+{
+    padding: 10px; 
+}
+
+.logoP-mine
+{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Poppins, Helvetica, arial, sans-serif;
+    line-height: 20px;
+}
+
+.header
+{
+    background-image: url(cover.jpg);
+    background-position: 100% 100%;
+    height: 900px;
+}
+
+.outer-layer
+{
+    background-color: rgba(230,105,113,0.7);
+    height: 100%;
+}
+
+.header-caption
+{
+    padding-top: 200px;
+}
+
+.header-body-caption
+{
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 0px 5px 10px #af2424;
+}
+
+.hossam
+{
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    color: white !important;
+}
+
+.hossam:hover
+{
+    background-color: white;
+    color: rgb(230,105,113) !important;
+}
+
+
+.about-icon
+{
+    border: 1px solid #999999;
+    display: inline-block;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    margin-top: 35px;
+    
+}
+
+.i-about
+{
+   
+    font-size: 1.4em;
+    color: #777777;
+}
+
+.about-icon:hover
+{
+    background-color: #EC3237;
+}
+
+.about-icon:hover .i-about
+{
+    color: white;
+}
+
+.number
+{
+    float: right;
+    font-family: Poppins, Helvetica, arial, sans-serif;
+    color: #777777;
+    font-size: 14px;
+}
+
+.number-desc
+{
+    font-family: Poppins, Helvetica, arial, sans-serif;
+    color: #777777;
+    font-size: 14px;
+}
+
+.progress-skills
+{
+    width: 79%; 
+}
+
+.a-skills
+{
+    background-color: #ec3237;
+}
+
+.what
+{
+    background-color: #F5F5F5;
+}
+
+.what-icon
+{
+    border: 1px solid transparent;
+    display: block;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #F5F5F5;
+    
+}
+
+.card-what:hover h4
+{
+    color: #EC3237;
+}
+
+.card-what:hover .what-icon 
+{
+    background-color: #EC3237;
+}
+
+.card-what:hover i
+{
+    color: white;
+}
+
+
+.statistics
+{
+    background-image: url(project-counter.jpg);
+    background-size: cover;
+    
+}
+
+
+.statistic
+{
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.stat
+{
+    font-size: 42px;
+    font-family: Poppins, Helvetica, arial, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.stat-head
+{
+    font-size: 18px;
+    font-family: Poppins, Helvetica, arial, sans-serif;
+    font-weight: 400;
+    color: #ec3237;
+}
+
+.icon-statistics
+{
+    color: #ec3237;
+}
+
+.portfolios ul
+{
+    list-style: none;
+}
+
+.portfolios ul li
+{
+  display: inline-block;
+}
+
+.btn-portfolio
+{
+    padding: 12px 20px;
+    border: 1px solid transparent;
+    color: white;
+    background-color: #EC3237;
+}
+
+.btn-portfolios
+{
+    padding: 12px 28px;
+    border: 1px solid rgba(0,0,0,0.2);
+    color: black;
+}
+
+.btn-portfolios:hover
+{
+    color: #EC3237;
+    border: 2px solid #EC3237;
+}
+
+.portfolios ul li a
+{
+    text-decoration: none;
+    font-family: Poppins, Helvetica, arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.card-portfolio
+{
+    position: relative;
+}
+
+
+.portfolio-icon1
+{
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    cursor: pointer;
+    position: absolute;
+    top: -20;
+    left: 45%;
+    
+}
+
+.portfolio:hover .portfolio-icon1
+{
+    background-color: #EC3237;
+}
+
+.persons
+{
+    background-image: url(client-testimonial.jpg);
+    background-position: 100% 100%;
+}
+
+
+.person1-size
+{
+    width: 45%;
+    cursor: move;
+}
+
+
+.img-person1
+{
+    border: 7px solid #ec3237; 
+}
+
+.i-contact
+{
+    color: #777777;
+}
+
+.p-body1
+{
+    color: #ec3237;
+}
+
+.footer-text
+{
+    font-size: 14px;
+    color: #9e9e9e;
+}
+
+.link-footer
+{
+    color: #c62d32;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
